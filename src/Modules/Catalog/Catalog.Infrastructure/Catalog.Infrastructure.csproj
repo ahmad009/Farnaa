@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\Catalog\Catalog.Application\Catalog.Application.csproj" />
+    <ProjectReference Include="..\..\Catalog\Catalog.Domain\Catalog.Domain.csproj" />
+    <ProjectReference Include="..\..\Catalog\Catalog.Contracts\Catalog.Contracts.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.33" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.33" PrivateAssets="all" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.2" PrivateAssets="all" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="8.0.5" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
+

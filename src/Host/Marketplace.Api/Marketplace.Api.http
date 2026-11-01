@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:5080
+
+POST {{baseUrl}}/api/orders
+Content-Type: application/json
+
+{
+  "customerId": "40000000-0000-0000-0000-000000000001",
+  "items": [
+    {
+      "sellingOptionId": "30000000-0000-0000-0000-000000000001",
+      "quantity": 1
+    }
+  ]
+}
